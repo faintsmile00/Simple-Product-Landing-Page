@@ -1,0 +1,191 @@
+nav {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    position: fixed; 
+    width: 100%;
+}
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url(https://preview.redd.it/1seeo1hv8x951.png?width=1080&crop=smart&auto=webp&s=53829d14d2e964141a2da071521070bf59730b79); 
+    background-size: cover; 
+    background-position: center; 
+    background-attachment: fixed; 
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    color: #ccc;
+}
+
+
+body {
+    padding-top: 60px; 
+}
+
+
+section {
+    padding: 20px;
+    margin: 20px 0;
+}
+
+#headertitle {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 3em;
+    color: #FFFFFF;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    text-align: center;
+    margin-top: 0;
+    padding-bottom: 50px;
+}
+
+.pricing-container {
+    display: flex;
+    justify-content: space-around;
+    width: 90%;
+    max-width: 1200px;
+    margin: auto;
+}
+
+.pricing-card {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    width: 30%;
+    padding: 20px;
+    text-align: center;
+    transition: transform 0.2s;
+}
+
+.pricing-card:hover {
+    transform: scale(1.05);
+}
+
+.pricing-card h3 {
+    background-color: #f1f1f1;
+    padding: 10px;
+    margin: -20px -20px 20px -20px;
+    border-bottom: 1px solid #ccc;
+    font-size: 1.5em;
+}
+
+.price {
+    font-size: 2em;
+    color: #333;
+    margin: 20px 0;
+}
+
+.pricing-card ul {
+    list-style: none;
+    padding: 0;
+    margin: 20px 0;
+    text-align: left;
+}
+
+.pricing-card ul li {
+    padding: 5px 0;
+    
+    
+}
+
+.pricing-card button {
+    background-color: #800080;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    text-transform: uppercase;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+video {
+    display: block;
+    margin: 0 auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+#intro {
+    padding: 20px;
+    max-width: 800px;
+    margin: 10 15;
+    background-color: rgba(0, 0, 0, 0.6); 
+    border-radius: 10px;
+}
+
+#intro-text,
+#intro-text ~ p {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.2em;
+    color: #fff;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7); 
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+#reviews {
+    padding: 20px;
+    max-width: 800px;
+    margin: 20px auto;
+    background-color: rgba(0, 0, 0, 0.6); 
+    border-radius: 10px;
+}
+
+.review {
+    margin-bottom: 20px;
+}
+
+.score {
+    font-size: 1.5em;
+    color: #FFD700; 
+}
+
+blockquote {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.2em;
+    color: #fff;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7); 
+    margin: 10px 0;
+}
+
+.reviewer {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1em;
+    color: #ccc;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.7); 
+    margin-top: 0;
+}
+ @media (max-width: 600px) {
+            body {
+                font-size: 14px;
+            }
+        }
+
+        @media (min-width: 601px) and (max-width: 1200px) {
+            body {
+                font-size: 18px;
+            }
+        }
+
+        @media (min-width: 1201px) {
+            body {
+                font-size: 20px;
+            }
